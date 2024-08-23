@@ -1,7 +1,10 @@
+from random import random
+from random import choice
+
 print("Hello World")
 print(1_000_000 + 1_000)
 print("spooky season"[2 + 2])
-print("spooky"[len("spooky")])
 print(True)
-print()
-print("spooky"[len("spooky")])
+for attempts in range(3):
+    print(random())
+    print(choice("wxyz"))
