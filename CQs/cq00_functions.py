@@ -7,4 +7,4 @@ def mimic(message: str) -> str:
     return message
 
 if __name__ == "__main__":
-    print(mimic(message=input("What is your message? ")))
+    print(mimic(input("What is your message? ")))
