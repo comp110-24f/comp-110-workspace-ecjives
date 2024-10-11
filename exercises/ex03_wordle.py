@@ -57,7 +57,7 @@ def main(secret: str) -> None:
         print(f"=== Turn {turns}/6 ===")
         wordle:str = emojified(secret, input_guess(len(secret)))
         print(wordle)
-        if (wordle == ("\U0001F7E9" * len(secret))):
+        if (wordle == (GREEN_BOX * len(secret))):
             print(f"You won in {turns}/6 turns!")
             return None
         turns += 1
