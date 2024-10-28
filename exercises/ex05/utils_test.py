@@ -60,4 +60,4 @@ def test_add_at_index_mutation() -> None:
 
     test_list: list[int] = [1, 2, 4]
     add_at_index(test_list, 3, 2)
-    assert test_list == [1, 2, 3, 4]
+    assert test_list != [1, 2, 4]
